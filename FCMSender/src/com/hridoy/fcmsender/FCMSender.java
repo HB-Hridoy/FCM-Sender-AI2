@@ -20,15 +20,14 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.util.Iterator;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @DesignerComponent(
 		version = 3,
-		description = "FCM Sender Extension — sends push notifications via your PHP backend. " +
-				"Requires fcm_sender.php hosted on your server.",
-		category = ComponentCategory.EXTENSION,
+		versionName = "1.0.0",
+		description = "FCM Sender Extension — sends push notifications via your server backend. " +
+				"Uses HTTP v1 API",
 		nonVisible = true,
 		iconName = "icon.png"
 )
@@ -60,8 +59,7 @@ public class FCMSender extends AndroidNonvisibleComponent {
 			editorType = "string",
 			defaultValue = ""
 	)
-	@SimpleProperty(description = "Base URL of your fcm_sender.php server. " +
-			"Example: https://yourserver.com/fcm_sender.php")
+	@SimpleProperty(description = "Deployed web app url of google app-script")
 	public void ServerUrl(String url) {
 		this.serverUrl = url.trim();
 	}
@@ -75,8 +73,7 @@ public class FCMSender extends AndroidNonvisibleComponent {
 			editorType = "string",
 			defaultValue = ""
 	)
-	@SimpleProperty(description = "Secret key that matches SECRET_KEY in your fcm_sender.php. " +
-			"Never share this publicly.")
+	@SimpleProperty(description = "Secret key that matches SECRET_KEY in your script")
 	public void SecretKey(String key) {
 		this.secretKey = key.trim();
 	}
@@ -93,8 +90,8 @@ public class FCMSender extends AndroidNonvisibleComponent {
 	@SimpleFunction(description =
 			"Initialize the sender with your server URL and secret key. " +
 					"Call this once at app startup. " +
-					"serverUrl: full URL to fcm_sender.php. " +
-					"secretKey: must match SECRET_KEY in your PHP file.")
+					"serverUrl: full URL to deployed web-app. " +
+					"secretKey: must match SECRET_KEY in your script.")
 	public void Initialize(String serverUrl, String secretKey) {
 		this.serverUrl = serverUrl.trim();
 		this.secretKey = secretKey.trim();
@@ -115,7 +112,7 @@ public class FCMSender extends AndroidNonvisibleComponent {
 					".\n===============================================================\n.\n" +
 					"Parameters:\n" +
 					"  • token    — FCM registration token of target device\n" +
-					"  • data     — AI2 dictionary of key-value pairs\n" +
+					"  • data     — Dictionary of key-value pairs\n" +
 					"  • callback — procedure(success, messageId, error)")
 	public void SendDataToToken(
 			final String token,
@@ -149,15 +146,13 @@ public class FCMSender extends AndroidNonvisibleComponent {
 					"  • title        — notification title\n" +
 					"  • body         — notification body text\n" +
 					"  • imageUrl     — full HTTPS image URL, or empty string\n" +
-					"  • targetScreen — screen to open on tap (e.g. Screen2), or empty for Screen1\n" +
-					"  • data         — AI2 dictionary of extra key-value pairs\n" +
+					"  • data         — Dictionary of extra key-value pairs\n" +
 					"  • callback     — procedure(success, messageId, error)")
 	public void SendNotificationToToken(
 			final String token,
 			final String title,
 			final String body,
 			final String imageUrl,
-			final String targetScreen,
 			final YailDictionary data,
 			final YailProcedure callback) {
 
@@ -169,7 +164,6 @@ public class FCMSender extends AndroidNonvisibleComponent {
 			try {
 				JSONObject payload = buildPayload("send_notification", "token", token,
 						title, body, data, imageUrl);
-				if (!targetScreen.isEmpty()) payload.put("screen", targetScreen);
 				performRequest(payload, callback);
 			} catch (Exception e) {
 				fireCallback(callback, false, "", "Build error: " + e.getMessage());
@@ -188,7 +182,7 @@ public class FCMSender extends AndroidNonvisibleComponent {
 					".\n===============================================================\n.\n" +
 					"Parameters:\n" +
 					"  • topic    — FCM topic name (without /topics/ prefix)\n" +
-					"  • data     — AI2 dictionary of key-value pairs\n" +
+					"  • data     — Dictionary of key-value pairs\n" +
 					"  • callback — procedure(success, messageId, error)")
 	public void SendDataToTopic(
 			final String topic,
@@ -222,15 +216,13 @@ public class FCMSender extends AndroidNonvisibleComponent {
 					"  • title        — notification title\n" +
 					"  • body         — notification body text\n" +
 					"  • imageUrl     — full HTTPS image URL, or empty string\n" +
-					"  • targetScreen — screen to open on tap (e.g. Screen2), or empty for Screen1\n" +
-					"  • data         — AI2 dictionary of extra key-value pairs\n" +
+					"  • data         — Dictionary of extra key-value pairs\n" +
 					"  • callback     — procedure(success, messageId, error)")
 	public void SendNotificationToTopic(
 			final String topic,
 			final String title,
 			final String body,
 			final String imageUrl,
-			final String targetScreen,
 			final YailDictionary data,
 			final YailProcedure callback) {
 
@@ -242,7 +234,6 @@ public class FCMSender extends AndroidNonvisibleComponent {
 			try {
 				JSONObject payload = buildPayload("send_notification", "topic", topic,
 						title, body, data, imageUrl);
-				if (!targetScreen.isEmpty()) payload.put("screen", targetScreen);
 				performRequest(payload, callback);
 			} catch (Exception e) {
 				fireCallback(callback, false, "", "Build error: " + e.getMessage());
@@ -260,8 +251,8 @@ public class FCMSender extends AndroidNonvisibleComponent {
 					"Delivered to MessageReceived event on each target device.\n" +
 					".\n===============================================================\n.\n" +
 					"Parameters:\n" +
-					"  • tokens   — AI2 list of FCM registration token strings\n" +
-					"  • data     — AI2 dictionary of key-value pairs\n" +
+					"  • tokens   — List of FCM registration token strings\n" +
+					"  • data     — Dictionary of key-value pairs\n" +
 					"  • callback — procedure(success, messageId, error)\n" +
 					"               messageId contains summary e.g. '5/5 sent'")
 	public void SendDataToMultipleTokens(
@@ -296,12 +287,11 @@ public class FCMSender extends AndroidNonvisibleComponent {
 					"Delivered to NotificationReceived event on each target device.\n" +
 					".\n===============================================================\n.\n" +
 					"Parameters:\n" +
-					"  • tokens       — AI2 list of FCM registration token strings\n" +
+					"  • tokens       — List of FCM registration token strings\n" +
 					"  • title        — notification title\n" +
 					"  • body         — notification body text\n" +
 					"  • imageUrl     — full HTTPS image URL, or empty string\n" +
-					"  • targetScreen — screen to open on tap, or empty for Screen1\n" +
-					"  • data         — AI2 dictionary of extra key-value pairs\n" +
+					"  • data         — Dictionary of extra key-value pairs\n" +
 					"  • callback     — procedure(success, messageId, error)\n" +
 					"                   messageId contains summary e.g. '5/5 sent'")
 	public void SendNotificationToMultipleTokens(
@@ -309,7 +299,6 @@ public class FCMSender extends AndroidNonvisibleComponent {
 			final String title,
 			final String body,
 			final String imageUrl,
-			final String targetScreen,
 			final YailDictionary data,
 			final YailProcedure callback) {
 
@@ -322,7 +311,6 @@ public class FCMSender extends AndroidNonvisibleComponent {
 			try {
 				JSONObject payload = buildPayload("send_notification", "multicast", "",
 						title, body, data, imageUrl);
-				if (!targetScreen.isEmpty()) payload.put("screen", targetScreen);
 				JSONArray tokenArray = new JSONArray();
 				for (int i = 1; i <= tokens.size(); i++) tokenArray.put(tokens.getString(i));
 				payload.put("tokens", tokenArray);
@@ -348,7 +336,6 @@ public class FCMSender extends AndroidNonvisibleComponent {
 	 *   "title":       "...",   // send_notification only
 	 *   "body":        "...",   // send_notification only
 	 *   "image":       "...",   // send_notification only, optional
-	 *   "screen":      "...",   // optional
 	 *   "data":        { "key": "value", ... }
 	 * }
 	 */
