@@ -1,0 +1,129 @@
+==================================================
+DATA PAYLOAD EXAMPLES
+==================================================
+
+
+--------------------------------------------------
+BASIC NOTIFICATION
+--------------------------------------------------
+
+{
+  "secret": "your-strong-secret-key-here",
+  "action": "send_notification",
+  "target_type": "topic",
+  "target": "AnimalDiscovery",
+  "small_icon": "paw.png",
+  "notificationStyle": {
+    "style": "basic",
+    "title": "Animal Discovery",
+    "body": "New animal unlocked: Learn fascinating facts about the Bengal Tiger."
+  },
+  "data": {
+    "animalId": "bengal_tiger",
+    "category": "big_cats"
+  }
+}
+
+
+--------------------------------------------------
+BIG TEXT STYLE
+--------------------------------------------------
+
+{
+  "secret": "your-strong-secret-key-here",
+  "action": "send_notification",
+  "target_type": "topic",
+  "target": "AnimalDiscovery",
+  "small_icon": "paw.png",
+  "notificationStyle": {
+    "style": "bigText",
+    "title": "Bengal Tiger Spotlight",
+    "body": "The Bengal tiger is one of the world's most powerful predators. Each tiger has a unique stripe pattern, making every individual easily identifiable. Explore its habitat, hunting techniques, and conservation status now."
+  },
+  "data": {
+    "animalId": "bengal_tiger",
+    "category": "big_cats"
+  }
+}
+
+
+--------------------------------------------------
+BIG PICTURE STYLE
+--------------------------------------------------
+
+{
+  "secret": "your-strong-secret-key-here",
+  "action": "send_notification",
+  "target_type": "topic",
+  "target": "AnimalDiscovery",
+  "small_icon": "paw.png",
+  "notificationStyle": {
+    "style": "bigPicture",
+    "title": "Today's Featured Animal",
+    "body": "Discover how giant pandas spend up to 14 hours a day eating bamboo.",
+    "largeIcon": "https://example.com/images/panda-avatar.jpg",
+    "bigPicture": "https://example.com/images/panda-cover.jpg"
+  },
+  "data": {
+    "animalId": "giant_panda",
+    "category": "bears"
+  }
+}
+
+
+--------------------------------------------------
+MESSAGING STYLE
+INDIVIDUAL MESSAGE
+--------------------------------------------------
+
+{
+  "secret": "your-strong-secret-key-here",
+  "action": "send_notification",
+  "target_type": "topic",
+  "target": "AnimalResearchers",
+  "small_icon": "research.png",
+  "notificationStyle": {
+    "style": "individualMessage",
+    "personId": "dr_adam_clark",
+    "personName": "Dr. Adam Clark",
+    "personIcon": "https://randomuser.me/api/portraits/men/11.jpg",
+    "message": "Fresh tiger tracks found near the eastern riverbank."
+  },
+  "data": {
+    "researchArea": "tiger_tracking",
+    "priority": "normal"
+  }
+}
+
+
+--------------------------------------------------
+MESSAGING STYLE
+GROUP MESSAGE
+--------------------------------------------------
+
+{
+  "secret": "your-strong-secret-key-here",
+  "action": "send_notification",
+  "target_type": "topic",
+  "target": "AnimalResearchers",
+  "small_icon": "research.png",
+  "notificationStyle": {
+    "style": "groupMessage",
+    "groupId": "big_cat_research_team",
+    "groupName": "Big Cat Research Team",
+    "groupIcon": "https://example.com/images/group-icon.png",
+    "personId": "dr_ethan_walker",
+    "personName": "Dr. Ethan Walker",
+    "personIcon": "https://randomuser.me/api/portraits/men/22.jpg",
+    "message": "Camera trap captured rare leopard activity overnight."
+  },
+  "data": {
+    "researchArea": "leopard_monitoring",
+    "priority": "high"
+  }
+}
+
+
+==================================================
+END OF FILE
+==================================================
