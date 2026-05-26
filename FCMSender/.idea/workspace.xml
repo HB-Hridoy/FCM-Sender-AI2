@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6b4f9b3-6207-491c-bc10-d8f52ef0b944" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../AppsScript/DataPayloads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppsScript/appsscript.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppsScript/fcm_sender.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps/.placeholder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hridoy/fcmsender/FCMSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/5_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuideImages/9.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3DyjXItYHSo4oTtq4ScnzlY8fWp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/add-notifications-styles",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/FCMSender"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6b4f9b3-6207-491c-bc10-d8f52ef0b944" name="Changes" comment="" />
+      <created>1779261241305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779261241305</updated>
+    </task>
+    <servers />
+  </component>
+</project>

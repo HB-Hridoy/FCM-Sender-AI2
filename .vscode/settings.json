@@ -1,0 +1,5 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "yaml.schemas": {"https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/schema/fast.json": "fast.yml"}
+}
