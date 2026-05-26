@@ -1,0 +1,229 @@
+FAST Version: 6.1.0 17.05.26.11.03
+OS Name: Mac OS X
+OS Version: 15.0.1
+Architecture: aarch64
+Username: hridoy
+User Home: /Users/hridoy
+Debug Build: false
+Working Directory: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2
+FAST_HOME from environment variable.
+FAST_HOME: /Users/hridoy/.local/share/Fast
+Premium Status: false
+Max Memory: 2048MB
+Free Memory: 18MB
+Total Memory: 24MB
+Available Processors: 8
+info: Got the JAVA_HOME from environment variable.
+info: JAVA_HOME: /Users/hridoy/.sdkman/candidates/java/current
+JAVA_HOME: /Users/hridoy/.sdkman/candidates/java/current
+JRE Version: 11.0.17
+JRE Specification: 11
+JRE Home: /Users/hridoy/.sdkman/candidates/java/11.0.17-tem
+Path Separator: :
+File Separator: /
+Line Separator: 
+
+info: fast build initialized.
+info: fast.yml is found at: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/fast.yml
+info: AndroidManifest.xml is found at: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/src/AndroidManifest.xml
+info: Package name is: com.hridoy.fcmsender
+info: KOTLIN_HOME: /Users/hridoy/.local/share/Fast/lib/compilers/kotlinc/1.9.24
+info: -r passed as an argument to run the proguard task.
+info: Cleaning build caches.
+info: Checking the availability of .xtend files.
+info: Checking the availability of .kt files.
+info: Getting provided libraries.
+info: Got 75 JAR libraries.
+info: Added 0 local runtime JAR libraries.
+info: Added 0 local compile-time JAR libraries.
+info: Added 0 local runtime AAR libraries.
+info: Added 0 local compile-time AAR libraries.
+info: Increasing components version.
+info: Checking the availability of .java file.
+info: Compiling java classes.
+info: added 1 .java sources.
+info: Calling Javac with free memory: 21MB
+info: Added custom bootclasspath to target Java 8.
+info: Successfully created javac arguments
+info: Calling javac commands.
+info: Wrote file at: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/.fast/com.hridoy.fcmsender/components.json
+info: Wrote file at: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/.fast/com.hridoy.fcmsender/files/component_build_infos.json
+info: javac is successfully executed.
+info: Copying extension icons.
+info: Reading AndroidManifest.xml
+info: Packaging compiled classes.
+info: Attach AARs Libs if provided
+info: No aars were provided to attach.
+info: Generating docs for extension
+info: Deleting previously generated blocks if exists.
+info: Generating blockly images.
+info: generating component.png for appinventor
+info: Generating Initialize method of FCMSender for appinventor
+info: generating component.png for kodular
+info: generating component.png for niotron
+info: generating component.png for androidbuilder
+info: Generating SendDataToTopic method of FCMSender for appinventor
+info: Generating SendDataToToken method of FCMSender for appinventor
+info: Generating SendDataToMultipleTokens method of FCMSender for appinventor
+info: Generating SendNotificationToTopic method of FCMSender for appinventor
+info: Generating SendNotificationToToken method of FCMSender for appinventor
+info: Generating SendNotificationToMultipleTokens method of FCMSender for appinventor
+info: Generating CreateBasicStyle method of FCMSender for appinventor
+info: Generating CreateBigTextStyle method of FCMSender for appinventor
+info: Generating CreateBigPictureStyle method of FCMSender for appinventor
+info: Generating CreateIndividualMessageStyle method of FCMSender for appinventor
+info: Generating CreateGroupMessageStyle method of FCMSender for appinventor
+info: Generating ServerUrl getter property of FCMSender for appinventor
+info: Generating ServerUrl setter property of FCMSender for appinventor
+info: Generating SecretKey getter property of FCMSender for appinventor
+info: Generating SecretKey setter property of FCMSender for appinventor
+info: Generating Initialize method of FCMSender for kodular
+info: Generating SendDataToTopic method of FCMSender for kodular
+info: Generating SendDataToToken method of FCMSender for kodular
+info: Generating SendDataToMultipleTokens method of FCMSender for kodular
+info: Generating SendNotificationToTopic method of FCMSender for kodular
+info: Generating SendNotificationToToken method of FCMSender for kodular
+info: Generating SendNotificationToMultipleTokens method of FCMSender for kodular
+info: Generating CreateBasicStyle method of FCMSender for kodular
+info: Generating CreateBigTextStyle method of FCMSender for kodular
+info: Generating CreateBigPictureStyle method of FCMSender for kodular
+info: Generating CreateIndividualMessageStyle method of FCMSender for kodular
+info: Generating CreateGroupMessageStyle method of FCMSender for kodular
+info: Generating ServerUrl getter property of FCMSender for kodular
+info: Generating ServerUrl setter property of FCMSender for kodular
+info: Generating SecretKey getter property of FCMSender for kodular
+info: Generating SecretKey setter property of FCMSender for kodular
+info: Generating Initialize method of FCMSender for niotron
+info: Generating SendDataToTopic method of FCMSender for niotron
+info: Generating SendDataToToken method of FCMSender for niotron
+info: Generating SendDataToMultipleTokens method of FCMSender for niotron
+info: Generating SendNotificationToTopic method of FCMSender for niotron
+info: Generating SendNotificationToToken method of FCMSender for niotron
+info: Generating SendNotificationToMultipleTokens method of FCMSender for niotron
+info: Generating CreateBasicStyle method of FCMSender for niotron
+info: Generating CreateBigTextStyle method of FCMSender for niotron
+info: Generating CreateBigPictureStyle method of FCMSender for niotron
+info: Generating CreateIndividualMessageStyle method of FCMSender for niotron
+info: Generating CreateGroupMessageStyle method of FCMSender for niotron
+info: Generating ServerUrl getter property of FCMSender for niotron
+info: Generating ServerUrl setter property of FCMSender for niotron
+info: Generating SecretKey getter property of FCMSender for niotron
+info: Generating SecretKey setter property of FCMSender for niotron
+info: Generating Initialize method of FCMSender for androidbuilder
+info: Generating SendDataToTopic method of FCMSender for androidbuilder
+info: Generating SendDataToToken method of FCMSender for androidbuilder
+info: Generating SendDataToMultipleTokens method of FCMSender for androidbuilder
+info: Generating SendNotificationToTopic method of FCMSender for androidbuilder
+info: Generating SendNotificationToToken method of FCMSender for androidbuilder
+info: Generating SendNotificationToMultipleTokens method of FCMSender for androidbuilder
+info: Generating CreateBasicStyle method of FCMSender for androidbuilder
+info: Generating CreateBigTextStyle method of FCMSender for androidbuilder
+info: Generating CreateBigPictureStyle method of FCMSender for androidbuilder
+info: Generating CreateIndividualMessageStyle method of FCMSender for androidbuilder
+info: Generating CreateGroupMessageStyle method of FCMSender for androidbuilder
+info: Generating ServerUrl getter property of FCMSender for androidbuilder
+info: Generating ServerUrl setter property of FCMSender for androidbuilder
+info: Generating SecretKey getter property of FCMSender for androidbuilder
+info: Generating SecretKey setter property of FCMSender for androidbuilder
+info: Converting 72 blockly images to PNGs.
+info: Converting appinventor/FCMSender/Method/Initialize.svg to PNG.
+info: Converting appinventor/FCMSender/Method/SendDataToTopic.svg to PNG.
+info: Converting appinventor/FCMSender/Method/SendDataToToken.svg to PNG.
+info: Converting appinventor/FCMSender/Method/SendDataToMultipleTokens.svg to PNG.
+info: Converting appinventor/FCMSender/Method/SendNotificationToTopic.svg to PNG.
+info: Converting appinventor/FCMSender/Method/SendNotificationToToken.svg to PNG.
+info: Converting appinventor/FCMSender/Method/SendNotificationToMultipleTokens.svg to PNG.
+info: Converting appinventor/FCMSender/Method/CreateBasicStyle.svg to PNG.
+info: Converting appinventor/FCMSender/Method/CreateBigTextStyle.svg to PNG.
+info: Converting appinventor/FCMSender/Method/CreateBigPictureStyle.svg to PNG.
+info: Converting appinventor/FCMSender/Method/CreateIndividualMessageStyle.svg to PNG.
+info: Converting appinventor/FCMSender/Method/CreateGroupMessageStyle.svg to PNG.
+info: Converting appinventor/FCMSender/Getter/ServerUrl.svg to PNG.
+info: Converting appinventor/FCMSender/Setter/ServerUrl.svg to PNG.
+info: Converting appinventor/FCMSender/Getter/SecretKey.svg to PNG.
+info: Converting appinventor/FCMSender/Setter/SecretKey.svg to PNG.
+info: Converting appinventor/FCMSender/Designer/ServerUrl.svg to PNG.
+info: Converting appinventor/FCMSender/Designer/SecretKey.svg to PNG.
+info: Converting kodular/FCMSender/Method/Initialize.svg to PNG.
+info: Converting kodular/FCMSender/Method/SendDataToTopic.svg to PNG.
+info: Converting kodular/FCMSender/Method/SendDataToToken.svg to PNG.
+info: Converting kodular/FCMSender/Method/SendDataToMultipleTokens.svg to PNG.
+info: Converting kodular/FCMSender/Method/SendNotificationToTopic.svg to PNG.
+info: Converting kodular/FCMSender/Method/SendNotificationToToken.svg to PNG.
+info: Converting kodular/FCMSender/Method/SendNotificationToMultipleTokens.svg to PNG.
+info: Converting kodular/FCMSender/Method/CreateBasicStyle.svg to PNG.
+info: Converting kodular/FCMSender/Method/CreateBigTextStyle.svg to PNG.
+info: Converting kodular/FCMSender/Method/CreateBigPictureStyle.svg to PNG.
+info: Converting kodular/FCMSender/Method/CreateIndividualMessageStyle.svg to PNG.
+info: Converting kodular/FCMSender/Method/CreateGroupMessageStyle.svg to PNG.
+info: Converting kodular/FCMSender/Getter/ServerUrl.svg to PNG.
+info: Converting kodular/FCMSender/Setter/ServerUrl.svg to PNG.
+info: Converting kodular/FCMSender/Getter/SecretKey.svg to PNG.
+info: Converting kodular/FCMSender/Setter/SecretKey.svg to PNG.
+info: Converting kodular/FCMSender/Designer/ServerUrl.svg to PNG.
+info: Converting kodular/FCMSender/Designer/SecretKey.svg to PNG.
+info: Converting niotron/FCMSender/Method/Initialize.svg to PNG.
+info: Converting niotron/FCMSender/Method/SendDataToTopic.svg to PNG.
+info: Converting niotron/FCMSender/Method/SendDataToToken.svg to PNG.
+info: Converting niotron/FCMSender/Method/SendDataToMultipleTokens.svg to PNG.
+info: Converting niotron/FCMSender/Method/SendNotificationToTopic.svg to PNG.
+info: Converting niotron/FCMSender/Method/SendNotificationToToken.svg to PNG.
+info: Converting niotron/FCMSender/Method/SendNotificationToMultipleTokens.svg to PNG.
+info: Converting niotron/FCMSender/Method/CreateBasicStyle.svg to PNG.
+info: Converting niotron/FCMSender/Method/CreateBigTextStyle.svg to PNG.
+info: Converting niotron/FCMSender/Method/CreateBigPictureStyle.svg to PNG.
+info: Converting niotron/FCMSender/Method/CreateIndividualMessageStyle.svg to PNG.
+info: Converting niotron/FCMSender/Method/CreateGroupMessageStyle.svg to PNG.
+info: Converting niotron/FCMSender/Getter/ServerUrl.svg to PNG.
+info: Converting niotron/FCMSender/Setter/ServerUrl.svg to PNG.
+info: Converting niotron/FCMSender/Getter/SecretKey.svg to PNG.
+info: Converting niotron/FCMSender/Setter/SecretKey.svg to PNG.
+info: Converting niotron/FCMSender/Designer/ServerUrl.svg to PNG.
+info: Converting niotron/FCMSender/Designer/SecretKey.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/Initialize.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/SendDataToTopic.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/SendDataToToken.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/SendDataToMultipleTokens.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/SendNotificationToTopic.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/SendNotificationToToken.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/SendNotificationToMultipleTokens.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/CreateBasicStyle.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/CreateBigTextStyle.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/CreateBigPictureStyle.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/CreateIndividualMessageStyle.svg to PNG.
+info: Converting androidbuilder/FCMSender/Method/CreateGroupMessageStyle.svg to PNG.
+info: Converting androidbuilder/FCMSender/Getter/ServerUrl.svg to PNG.
+info: Converting androidbuilder/FCMSender/Setter/ServerUrl.svg to PNG.
+info: Converting androidbuilder/FCMSender/Getter/SecretKey.svg to PNG.
+info: Converting androidbuilder/FCMSender/Setter/SecretKey.svg to PNG.
+info: Converting androidbuilder/FCMSender/Designer/ServerUrl.svg to PNG.
+info: Converting androidbuilder/FCMSender/Designer/SecretKey.svg to PNG.
+info: Blockly images has been successfully converted to PNGs.
+info: generating blocks.png of FCMSender
+info: Generated blocks.png of FCMSender
+info: Writing docs for single component extension.
+info: Removing annotations from sources.
+info: Unjaring dependencies.
+info: Generating AndroidRuntime.jar
+info: Merging compiled sources and required deps.
+info: Calling ProGuard with free memory: 38MB
+info: temporary default proguard-rules.pro is created.
+info: user's proguard-rules.pro is copied to temp directory.
+info: calling proguard commands.
+info: ProGuard, version 7.9.1
+info: proguard is successfully executed.
+info: Moving the runtime jar to the desired dir of raw.
+info: Running the prefered dexer.
+info: Calling D8 with free memory: 28MB
+info: Using the Android API specific d8.jar
+info: D8 Dexer, version 8.6.2-dev
+info: Successfully created dexing arguments
+info: Calling dexing commands.
+info: D8 is successfully executed.
+info: Last compile time was: 2026-05-25T16:53:17+0200
+info: Project compiled at: 2026-05-26T11:51:13+0200
+info: Packaging the aix at: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/out/com.hridoy.fcmsender.aix
+info: Setting extension size on docs. Size is: 15.05 KB
+info: Saving the docs to out/extension.txt
+info: Clearing the written docs.
+BUILD SUCCESSFUL

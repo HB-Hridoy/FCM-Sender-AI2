@@ -1,0 +1,82 @@
+FAST Version: 6.1.0 17.05.26.11.03
+OS Name: Mac OS X
+OS Version: 15.0.1
+Architecture: aarch64
+Username: hridoy
+User Home: /Users/hridoy
+Debug Build: false
+Working Directory: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2
+FAST_HOME from environment variable.
+FAST_HOME: /Users/hridoy/.local/share/Fast
+Premium Status: false
+Max Memory: 2048MB
+Free Memory: 15MB
+Total Memory: 20MB
+Available Processors: 8
+info: Got the JAVA_HOME from environment variable.
+info: JAVA_HOME: /Users/hridoy/.sdkman/candidates/java/current
+JAVA_HOME: /Users/hridoy/.sdkman/candidates/java/current
+JRE Version: 11.0.17
+JRE Specification: 11
+JRE Home: /Users/hridoy/.sdkman/candidates/java/11.0.17-tem
+Path Separator: :
+File Separator: /
+Line Separator: 
+
+info: fast build initialized.
+info: fast.yml is found at: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/fast.yml
+info: AndroidManifest.xml is found at: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/src/AndroidManifest.xml
+info: Package name is: com.hridoy.fcmsender
+info: KOTLIN_HOME: /Users/hridoy/.local/share/Fast/lib/compilers/kotlinc/1.9.24
+info: -r passed as an argument to run the proguard task.
+info: Cleaning build caches.
+info: Checking the availability of .xtend files.
+info: Checking the availability of .kt files.
+info: Getting provided libraries.
+info: Got 75 JAR libraries.
+info: Added 0 local runtime JAR libraries.
+info: Added 0 local compile-time JAR libraries.
+info: Added 0 local runtime AAR libraries.
+info: Added 0 local compile-time AAR libraries.
+info: Increasing components version.
+info: Checking the availability of .java file.
+info: Compiling java classes.
+info: added 1 .java sources.
+info: Calling Javac with free memory: 21MB
+info: Added custom bootclasspath to target Java 8.
+info: Successfully created javac arguments
+info: Calling javac commands.
+info: Wrote file at: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/.fast/com.hridoy.fcmsender/components.json
+info: Wrote file at: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/.fast/com.hridoy.fcmsender/files/component_build_infos.json
+info: javac is successfully executed.
+info: Copying extension icons.
+info: Reading AndroidManifest.xml
+info: Packaging compiled classes.
+info: Attach AARs Libs if provided
+info: No aars were provided to attach.
+info: Generating docs for extension
+info: Writing docs for single component extension.
+info: Removing annotations from sources.
+info: Unjaring dependencies.
+info: Generating AndroidRuntime.jar
+info: Merging compiled sources and required deps.
+info: Calling ProGuard with free memory: 21MB
+info: temporary default proguard-rules.pro is created.
+info: user's proguard-rules.pro is copied to temp directory.
+info: calling proguard commands.
+info: ProGuard, version 7.9.1
+info: proguard is successfully executed.
+info: Moving the runtime jar to the desired dir of raw.
+info: Running the prefered dexer.
+info: Calling D8 with free memory: 21MB
+info: Using the Android API specific d8.jar
+info: D8 Dexer, version 8.6.2-dev
+info: Successfully created dexing arguments
+info: Calling dexing commands.
+info: D8 is successfully executed.
+info: Project compiled at: 2026-05-26T11:52:00+0200
+info: Packaging the aix at: /Users/hridoy/Documents/AppInventor/ExtensionsForAI2/FastExtensions/FCM-Sender-AI2/out/com.hridoy.fcmsender.aix
+info: Setting extension size on docs. Size is: 15.05 KB
+info: Saving the docs to out/extension.txt
+info: Clearing the written docs.
+BUILD SUCCESSFUL
